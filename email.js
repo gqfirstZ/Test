@@ -1,6 +1,6 @@
 
   (function(){
-    emailjs.init("cxl6-uJaSPV7ifvjz") // ใส่ public key ที่ได้จาก EmailJS
+    emailjs.init("OOmUUbHLUleNsMDvI") // ใส่ public key ที่ได้จาก EmailJS
   })();
   
 document.addEventListener('DOMContentLoaded', function () {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
 
       // ส่งข้อมูลไป EmailJS
-      emailjs.sendForm('service_ov90ntb', 'template_tula93j', inquiryForm)
+      emailjs.sendForm('service_ra5gop8', 'template_si8sy0g', inquiryForm)
         .then(function() {
           alert('ส่งข้อมูลเรียบร้อยแล้ว ขอบคุณค่ะ');
           var modal = bootstrap.Modal.getInstance(document.getElementById('inquiryModal'));
