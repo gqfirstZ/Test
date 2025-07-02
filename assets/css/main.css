@@ -63,25 +63,19 @@
 /* LINE Seed Sans (Regular, Bold, ExtraBold) */
 @font-face {
   font-family: 'LINE Seed Sans';
-  src: url('../Font/Web/WOFF2/LINESeedSansTH_Rg.woff2') format('woff2'),
-       url('../Font/Web/WOFF/LINESeedSansTH_Rg.woff') format('woff');
+  src: url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.woff2') format('woff2'),
+       url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.woff') format('woff'),
+       url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'LINE Seed Sans';
-  src: url('../Font/Web/WOFF2/LINESeedSansTH_Bd.woff2') format('woff2'),
-       url('../Font/Web/WOFF/LINESeedSansTH_Bd.woff') format('woff');
+  font-family: 'LINE Seed Sans ExtraBold';
+  src: url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff2') format('woff2'),
+       url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff') format('woff'),
+       url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.ttf') format('truetype');
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'LINE Seed Sans';
-  src: url('../Font/Web/WOFF2/LINESeedSansTH_XBd.woff2') format('woff2'),
-       url('../Font/Web/WOFF/LINESeedSansTH_XBd.woff') format('woff');
-  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
@@ -89,7 +83,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
+  font-family: 'LINE Seed Sans', 'Prompt', 'Poppins', Arial, sans-serif;
 }
 
 a {
@@ -3391,9 +3385,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section{
-  /* Add your styles here */
-}
 
 /*--------------------------------------------------------------
 # Hero 2 Section
@@ -4265,7 +4256,7 @@ section,
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
+  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
 }
 
 #services .whysofresh-list li {
@@ -4395,8 +4386,7 @@ section,
 .sofresh-service-list {
   color: #222;
   font-size: 18px;
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
-  margin: 0;
+  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
   padding-left: 18px;
   margin-bottom: 0;
 }
@@ -4718,7 +4708,7 @@ section,
   background: #ef7c8e;
   padding: 36px 0 24px 0;
   color: #fff;
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
+  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
 }
 
 .footer-sofresh-container {
@@ -4772,8 +4762,7 @@ section,
   font-weight: 700;
   color: #fff;
   margin-bottom: 6px;
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
-}
+  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
 
 .footer-sofresh-contact-detail {
   font-size: 24px;
@@ -4849,7 +4838,7 @@ section,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Prompt', 'Poppins', 'LINE Seed Sans', sans-serif;
+  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
 }
 
 
@@ -5010,4 +4999,4 @@ section,
   justify-content: flex-end;
   align-items: flex-start;
 }
-
+}
