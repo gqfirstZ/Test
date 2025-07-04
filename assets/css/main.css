@@ -4731,8 +4731,10 @@ section,
   gap: 12px;
   margin-bottom: 2px;
 }
+.footer-sofresh-contact-detail,
 .footer-sofresh-contact-detail span {
   color: #fff !important;
+  background: transparent !important;
 }
 
 .footer-sofresh-contact-detail i {
