@@ -85,4 +85,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const detailTextarea = document.getElementById('inq-detail');
+  if (detailTextarea) {
+    detailTextarea.addEventListener('input', function () {
+      this.style.height = 'auto';
+      this.style.height = (this.scrollHeight) + 'px';
+    });
+    // ตั้งค่าเริ่มต้น
+    detailTextarea.style.overflowY = 'hidden';
+    detailTextarea.style.resize = 'none';
+  }
+});
 
