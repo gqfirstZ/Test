@@ -5158,7 +5158,7 @@ section,
 }
 .sofresh-privacy-note span {
   line-height: 1.5;
-  display: block;
+  display: inline; /* เปลี่ยนจาก block เป็น inline */
 }
 .sofresh-privacy-note {
   background: #ef7c8e;
@@ -5168,7 +5168,7 @@ section,
   margin-top: 18px;
   font-size: 1rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* เปลี่ยนจาก flex-start เป็น center */
   gap: 14px;
   line-height: 1.5;
   justify-content: flex-start;
