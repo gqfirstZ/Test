@@ -4732,7 +4732,7 @@ section,
   margin-bottom: 2px;
 }
 .footer-sofresh-contact-detail span {
-  color: #fff;
+  color: #fff !important;
 }
 
 .footer-sofresh-contact-detail i {
