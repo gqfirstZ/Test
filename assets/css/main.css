@@ -75,7 +75,7 @@
   src: url('./font/LINESeedSans_W_XBd.woff2') format('woff2'),
        url('./font/LINESeedSans_W_XBd.woff') format('woff'),
        url('./font/LINESeedSans_W_XBd.eot') format('truetype');
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
