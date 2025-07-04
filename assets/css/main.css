@@ -5122,3 +5122,14 @@ section,
 }
 
 /* ...existing code... */
+input,
+select,
+textarea,
+button,
+label,
+.form-label,
+.form-control,
+.sofresh-minimal-form,
+.sofresh-minimal-form * {
+  font-family: 'LINE Seed Sans', Arial, sans-serif !important;
+}
