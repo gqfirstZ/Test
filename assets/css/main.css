@@ -395,29 +395,27 @@ h6 {
 /* Navmenu - Mobile */
 /* Hamburger button */
 .nav-toggle {
-  background: none;
-  border: none;
-  color: #fff;
-  margin-left: 12px;
   display: none;
-  z-index: 1202;
 }
 
-/* Responsive nav */
 @media (max-width: 991.98px) {
+  .nav-toggle {
+    display: block;
+    z-index: 1202;
+  }
   .navmenu {
     position: fixed;
-    top: 60px; /* ให้เหลือ header ด้านบน */
+    top: 60px;
     left: 0;
     width: 100vw;
-    height: calc(100vh - 60px); /* ไม่เต็มจอ */
+    height: calc(100vh - 60px);
     background: rgba(239,124,142,0.97);
-    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 32px;
+    display: none;
     z-index: 1200;
+    padding-top: 32px;
     border-radius: 0 0 18px 18px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.07);
   }
@@ -428,7 +426,7 @@ h6 {
     flex-direction: column;
     gap: 24px;
     align-items: center;
-    padding: 0 0 0 0;
+    padding: 0;
     margin: 0;
     list-style: none;
   }
@@ -449,6 +447,30 @@ h6 {
   .navmenu a.active {
     background: #fff;
     color: #ef7c8e;
+  }
+  .btn-getstarted {
+    position: relative;
+    z-index: 1203;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-toggle {
+    display: none !important;
+  }
+  .navmenu {
+    display: flex !important;
+    position: static;
+    height: auto;
+    width: auto;
+    background: none;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navmenu ul {
+    flex-direction: row;
+    gap: 0;
   }
 }
 

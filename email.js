@@ -68,5 +68,21 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
-
+document.addEventListener("DOMContentLoaded", function () {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navMenu = document.getElementById('navmenu');
+  if (navToggle && navMenu) {
+    navToggle.addEventListener('click', function () {
+      navMenu.classList.toggle('active');
+    });
+    // ปิดเมนูเมื่อคลิกลิงก์ (mobile)
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 991.98) {
+          navMenu.classList.remove('active');
+        }
+      });
+    });
+  }
+});
 
