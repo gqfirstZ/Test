@@ -63,18 +63,18 @@
 /* LINE Seed Sans (Regular, Bold, ExtraBold) */
 @font-face {
   font-family: 'LINE Seed Sans';
-  src: url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.woff2') format('woff2'),
-       url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.woff') format('woff'),
-       url('assets/fonts/line-seed-sans/LINESeedSansTH-Regular.ttf') format('truetype');
+  src: url('fonts/line-seed-sans/LINESeedSansTH-Regular.woff2') format('woff2'),
+       url('fonts/line-seed-sans/LINESeedSansTH-Regular.woff') format('woff'),
+       url('fonts/line-seed-sans/LINESeedSansTH-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'LINE Seed Sans ExtraBold';
-  src: url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff2') format('woff2'),
-       url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff') format('woff'),
-       url('assets/fonts/line-seed-sans/LINESeedSansTH-ExtraBold.ttf') format('truetype');
+  src: url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff2') format('woff2'),
+       url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff') format('woff'),
+       url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
