@@ -4630,6 +4630,93 @@ section,
     padding: 8px 16px;
   }
 }
+/* ฟอนต์สำหรับทุกข้อความใน section */
+.whyus-category-label,
+.whyus-categories-btn,
+.section-title h2 {
+  font-family: var(--default-font) !important;
+}
+
+/* Responsive layout สำหรับหมวดหมู่ */
+.whyus-categories-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.whyus-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+}
+
+.whyus-category-img img {
+  width: 100%;
+  max-width: 90px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.whyus-category-label {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ปุ่ม Download Catalogue */
+.whyus-categories-btn-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.whyus-categories-btn {
+  font-family: var(--default-font) !important;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 32px;
+  border-radius: 24px;
+  background: #ef7c8e;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+  display: inline-block;
+  text-align: center;
+}
+
+.whyus-categories-btn:hover {
+  background: #fd4460;
+  color: #fff;
+}
+
+/* Responsive สำหรับมือถือ */
+@media (max-width: 600px) {
+  .whyus-categories-row {
+    gap: 10px;
+  }
+  .whyus-category {
+    width: 45vw;
+    max-width: 120px;
+  }
+  .whyus-category-img img {
+    max-width: 70px;
+  }
+  .whyus-categories-btn {
+    width: 90vw;
+    max-width: 320px;
+    font-size: 1.05rem;
+    padding: 12px 0;
+  }
+  .section-title h2 {
+    font-size: 1.5rem;
+  }
+}
 
 /* ...existing code... */
 /* ...existing code... */
