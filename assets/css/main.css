@@ -4737,11 +4737,6 @@ section,
   background: transparent !important;
   -webkit-text-fill-color: #fff !important;
 }
-.footer-sofresh-contact-detail,
-.footer-sofresh-contact-detail span {
-  color: #fff !important;
-  background: transparent !important;
-}
 
 /* ป้องกัน dark mode ของ browser/OS */
 @media (prefers-color-scheme: dark) {
