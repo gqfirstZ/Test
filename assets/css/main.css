@@ -79,6 +79,15 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'LINE Seed Sans ExtraBold';
+  src: url('./font/LINESeedSans_W_XBd.woff2') format('woff2'),
+       url('./font/LINESeedSans_W_XBd.woff') format('woff'),
+       url('./font/LINESeedSans_W_XBd.eot') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   color: var(--default-color);
