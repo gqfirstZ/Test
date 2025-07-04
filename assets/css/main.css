@@ -13,7 +13,7 @@
 /* Fonts */
 :root {
   --default-font: 'LINE Seed Sans', Arial, sans-serif;
-  --heading-font: 'LINE Seed Sans ExtraBold', Arial, sans-serif;
+  --heading-font: 'LINE Seed Sans Bold', Arial, sans-serif;
   --nav-font: 'LINE Seed Sans ', Arial, sans-serif;
 }
 
@@ -71,10 +71,10 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'LINE Seed Sans ExtraBold';
-  src: url('./font/LINESeedSans_W_XBd.woff2') format('woff2'),
-       url('./font/LINESeedSans_W_XBd.woff') format('woff'),
-       url('./font/LINESeedSans_W_XBd.eot') format('truetype');
+  font-family: 'LINE Seed Sans Bold';
+  src: url('./font/LINESeedSans_W_Bd.woff2') format('woff2'),
+       url('./font/LINESeedSans_W_Bd.woff') format('woff'),
+       url('./font/LINESeedSans_W_Bd.eot') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
