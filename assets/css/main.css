@@ -4495,6 +4495,26 @@ section,
     margin: 24px auto 16px auto;
   }
 }
+@media (max-width: 600px) {
+  #services .whysofresh-content-col {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 32px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  #services .whysofresh-list {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #services .whysofresh-list .whysofresh-head,
+  #services .whysofresh-list .whysofresh-desc {
+    text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+}
 
 /* ...existing code... */
 /* ...existing code... */
@@ -4518,8 +4538,13 @@ section,
   justify-content: center;
   align-items: flex-end;
   gap: 32px;
-  margin-bottom: 36px;
+  margin-bottom: 0;
   flex-wrap: wrap;
+}
+
+.bottles-row {
+  margin-top: 32px;
+  margin-bottom: 36px;
 }
 
 .whyus-category {
@@ -4530,8 +4555,8 @@ section,
 }
 
 .whyus-category-img {
-  width: 213px;
-  height: 319px;
+  width: 215px;
+  height: 318px;
   border-radius: 14px;
   overflow: hidden;
   margin-bottom: 12px;
@@ -4552,12 +4577,15 @@ section,
 }
 
 .whyus-category-label {
-  font-size: 18px;
-  color: #222;
- 
+  font-size: 1rem;
   text-align: center;
-  margin-top: 2px;
+  margin-top: 4px;
+  min-height: 28px;
+  line-height: 1.2;
+  word-break: break-word;
+  white-space: normal;
 }
+
 
 
 
@@ -4587,49 +4615,6 @@ section,
   color: #fff;
 }
 
-@media (max-width: 991.98px) {
-  .whyus-categories-title {
-    font-size: 40px;
-  }
-  .whyus-categories-row {
-    gap: 18px;
-  }
-  .whyus-category,
-  .whyus-category-img {
-    width: 120px;
-    height: 120px;
-    min-width: 100px;
-  }
-  .whyus-category-label {
-    font-size: 16px;
-  }
-  .whyus-categories-btn {
-    font-size: 16px;
-    padding: 10px 28px;
-  }
-}
-
-@media (max-width: 600px) {
-  .whyus-categories-title {
-    font-size: 28px;
-  }
-  .whyus-categories-row {
-    gap: 8px;
-  }
-  .whyus-category,
-  .whyus-category-img {
-    width: 80px;
-    height: 80px;
-    min-width: 60px;
-  }
-  .whyus-category-label {
-    font-size: 12px;
-  }
-  .whyus-categories-btn {
-    font-size: 13px;
-    padding: 8px 16px;
-  }
-}
 
 
 /* ...existing code... */
@@ -4849,11 +4834,11 @@ section,
   font-size: 16px;
   padding: 12px 0 10px 0;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+  gap: 0;
 }
-
 
 .footer-sofresh-copyright-left {
   margin-left: 40px;
@@ -4876,20 +4861,28 @@ section,
   color: #fd4460;
 }
 
-@media (max-width: 991.98px) {
+/* Responsive: เรียงแนวตั้งและอยู่กลางจอ */
+@media (max-width: 600px) {
   .footer-sofresh-copyright {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 8px;
     font-size: 13px;
     text-align: center;
+    padding: 14px 0 10px 0;
   }
   .footer-sofresh-copyright-left,
   .footer-sofresh-copyright-right {
     margin: 0;
-    gap: 18px;
+    gap: 12px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
   }
-  .footer-sofresh-copyright-right a {
-    font-size: 13px;
+  .footer-sofresh-copyright-right {
+    margin-bottom: 6px;
   }
 }
 
