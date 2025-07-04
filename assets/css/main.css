@@ -72,9 +72,9 @@
 }
 @font-face {
   font-family: 'LINE Seed Sans ExtraBold';
-  src: url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_XBd.woff2') format('woff2'),
-       url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_XBd.woff') format('woff'),
-       url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_XBd.eot') format('truetype');
+  src: url('/assets/css/font/LINESeedSans_W_XBd.woff2') format('woff2'),
+       url('/assets/css/font/LINESeedSans_W_XBd.woff') format('woff'),
+       url('/assets/css/font/LINESeedSans_W_XBd.eot') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
