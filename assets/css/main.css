@@ -5174,3 +5174,14 @@ section,
     height: 26px;
   }
 }
+#inq-detail {
+  display: flex;
+  align-items: center;
+  /* สำหรับแนวนอน */
+  text-align: center;
+  /* สำหรับแนวตั้ง */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  min-height: 80px;
+  resize: none;
+}
