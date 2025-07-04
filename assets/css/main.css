@@ -4256,7 +4256,7 @@ section,
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: 'LINE Seed Sans', Arial, sans-serif;
+  
 }
 
 #services .whysofresh-list li {
@@ -4268,7 +4268,7 @@ section,
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 2px;
-  font-family: 'LINE Seed Sans', Arial, sans-serif;
+  
   
 }
 
@@ -4387,7 +4387,7 @@ section,
 .sofresh-service-list {
   color: #222;
   font-size: 18px;
-  font-family: 'LINE Seed Sans', Arial, sans-serif;
+  
   padding-left: 18px;
   margin-bottom: 0;
 }
@@ -4709,7 +4709,7 @@ section,
   background: #ef7c8e;
   padding: 36px 0 24px 0;
   color: #fff;
-  font-family:'LINE Seed Sans', Arial, sans-serif;
+ 
 }
 
 .footer-sofresh-container {
@@ -4763,7 +4763,7 @@ section,
   font-weight: 700;
   color: #fff;
   margin-bottom: 6px;
-  font-family: 'LINE Seed Sans', Arial, sans-serif;
+  
 }
 
 .footer-sofresh-contact-detail {
@@ -4840,7 +4840,7 @@ section,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'LINE Seed Sans', Arial, sans-serif;
+  
 }
 
 
