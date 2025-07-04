@@ -80,7 +80,7 @@
   font-display: swap;
 }
 
-html,body {
+body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: 'LINE Seed Sans', Arial, sans-serif !important;
@@ -5122,3 +5122,6 @@ section,
 }
 
 /* ...existing code... */
+html, body, * {
+  font-family: 'LINE Seed Sans', Arial, sans-serif !important;
+}
