@@ -4731,6 +4731,9 @@ section,
   gap: 12px;
   margin-bottom: 2px;
 }
+.footer-sofresh-contact-detail span {
+  color: #fff;
+}
 
 .footer-sofresh-contact-detail i {
   font-size: 26px;
