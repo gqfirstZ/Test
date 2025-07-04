@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: 'LINESeedSans', Arial, sans-serif;
-  --heading-font: 'LINESeedSans ExtraBold', Arial, sans-serif;
-  --nav-font: 'LINESeedSans Heavy', Arial, sans-serif;
+  --default-font: 'LINESeed Sans', Arial, sans-serif;
+  --heading-font: 'LINESeed Sans ExtraBold', Arial, sans-serif;
+  --nav-font: 'LINESeed Sans Heavy', Arial, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -63,18 +63,18 @@
 /* LINE Seed Sans (Regular, Bold, ExtraBold) */
 @font-face {
   font-family: 'LINE Seed Sans';
-  src: url('fonts/line-seed-sans/LINESeedSansTH-Regular.woff2') format('woff2'),
-       url('fonts/line-seed-sans/LINESeedSansTH-Regular.woff') format('woff'),
-       url('fonts/line-seed-sans/LINESeedSansTH-Regular.ttf') format('truetype');
+  src: url('Font/Web/line-seed-sans/LINESeedSansTH-Regular.woff2') format('woff2'),
+       url('Font/Web/line-seed-sans/LINESeedSansTH-Regular.woff') format('woff'),
+       url('Font/Web/line-seed-sans/LINESeedSansTH-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'LINE Seed Sans ExtraBold';
-  src: url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff2') format('woff2'),
-       url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.woff') format('woff'),
-       url('fonts/line-seed-sans/LINESeedSansTH-ExtraBold.ttf') format('truetype');
+  src: url('Font/Web/line-seed-sans/LINESeedSansTH-ExtraBold.woff2') format('woff2'),
+       url('Font/Web/line-seed-sans/LINESeedSansTH-ExtraBold.woff') format('woff'),
+       url('Font/Web/line-seed-sans/LINESeedSansTH-ExtraBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
