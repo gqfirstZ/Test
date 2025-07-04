@@ -4737,6 +4737,11 @@ section,
   background: transparent !important;
   -webkit-text-fill-color: #fff !important;
 }
+@media (prefers-color-scheme: dark) {
+  a[href^="tel"] {
+    color: #fff !important;
+  }
+}
 
 /* ป้องกัน dark mode ของ browser/OS */
 @media (prefers-color-scheme: dark) {
