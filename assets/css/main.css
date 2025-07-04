@@ -5142,7 +5142,7 @@ section,
 }
 .sofresh-privacy-note {
   background: #ef7c8e;
-  color: #18151a;
+  color: #ffffff;
   border-radius: 18px;
   padding: 16px 18px 12px 14px;
   margin-top: 18px;
@@ -5167,7 +5167,7 @@ section,
 }
 
 .sofresh-privacy-link {
-  color: #18151a;
+  color: #ffffff;
   text-decoration: underline;
   font-weight: 500;
   transition: color 0.2s;
