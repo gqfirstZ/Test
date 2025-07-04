@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
-  --heading-font: 'LINE Seed Sans ExtraBold', 'Prompt', 'Poppins', Arial, sans-serif;
-  --nav-font: 'LINE Seed Sans Heavy', 'Prompt', 'Poppins', Arial, sans-serif;
+  --default-font: 'LINE Seed Sans', Arial, sans-serif;
+  --heading-font: 'LINE Seed Sans ExtraBold', Arial, sans-serif;
+  --nav-font: 'LINE Seed Sans Heavy', Arial, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -83,7 +83,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: 'LINE Seed Sans', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family: 'LINE Seed Sans', Arial, sans-serif !important;
 }
 
 a {
@@ -4256,7 +4256,7 @@ section,
   list-style: none;
   padding: 0;
   margin: 0;
-  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family: 'LINE Seed Sans', Arial, sans-serif;
 }
 
 #services .whysofresh-list li {
@@ -4268,6 +4268,7 @@ section,
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 2px;
+  font-family: 'LINE Seed Sans', Arial, sans-serif;
   
 }
 
@@ -4386,7 +4387,7 @@ section,
 .sofresh-service-list {
   color: #222;
   font-size: 18px;
-  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family: 'LINE Seed Sans', Arial, sans-serif;
   padding-left: 18px;
   margin-bottom: 0;
 }
@@ -4708,7 +4709,7 @@ section,
   background: #ef7c8e;
   padding: 36px 0 24px 0;
   color: #fff;
-  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family:'LINE Seed Sans', Arial, sans-serif;
 }
 
 .footer-sofresh-container {
@@ -4762,7 +4763,7 @@ section,
   font-weight: 700;
   color: #fff;
   margin-bottom: 6px;
-  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family: 'LINE Seed Sans', Arial, sans-serif;
 }
 
 .footer-sofresh-contact-detail {
@@ -4839,7 +4840,7 @@ section,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'LINE Seed Sans ', 'Prompt', 'Poppins', Arial, sans-serif;
+  font-family: 'LINE Seed Sans', Arial, sans-serif;
 }
 
 
@@ -5061,7 +5062,6 @@ section,
   }
 }
 
-/* ...existing code... */
 /* ...existing code... */
 
 /* Responsive for inquiry modal form on mobile */
