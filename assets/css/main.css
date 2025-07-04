@@ -63,9 +63,9 @@
 /* LINE Seed Sans (Regular, Bold, ExtraBold) */
 @font-face {
   font-family: 'LINE Seed Sans';
-  src: url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_Rg.woff2') format('woff2'),
-       url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_Rg.woff') format('woff'),
-       url('/assets/css/font/Web/line-seed-sans/LINESeedSans_W_Rg.eot') format('truetype');
+  src: url('/assets/font/LINESeedSans_W_Rg.woff2') format('woff2'),
+       url('/assets/font/LINESeedSans_W_Rg.woff') format('woff'),
+       url('/assets/font/LINESeedSans_W_Rg.eot') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
