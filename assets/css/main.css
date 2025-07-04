@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: 'LINESeed Sans', Arial, sans-serif;
-  --heading-font: 'LINESeed Sans ExtraBold', Arial, sans-serif;
-  --nav-font: 'LINESeed Sans Heavy', Arial, sans-serif;
+  --default-font: 'LINE Seed Sans', Arial, sans-serif;
+  --heading-font: 'LINE Seed Sans ExtraBold', Arial, sans-serif;
+  --nav-font: 'LINE Seed Sans ', Arial, sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
