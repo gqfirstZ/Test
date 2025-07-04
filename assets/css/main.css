@@ -5079,3 +5079,19 @@ section,
 }
 
 /* ...existing code... */
+#termModal .btn-primary {
+  background: #ef7c8e !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 10px 24px;
+  transition: background 0.2s;
+}
+
+#termModal .btn-primary:hover,
+#termModal .btn-primary:focus {
+  background: #fd4460 !important;
+  color: #fff !important;
+}
