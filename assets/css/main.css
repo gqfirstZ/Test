@@ -5079,6 +5079,7 @@ section,
 }
 
 /* ...existing code... */
+#privacyModal .btn-primary,
 #termModal .btn-primary {
   background: #ef7c8e !important;
   border: none !important;
@@ -5091,7 +5092,9 @@ section,
 }
 
 #termModal .btn-primary:hover,
-#termModal .btn-primary:focus {
+#termModal .btn-primary:focus,
+#privacyModal .btn-primary:hover,
+#privacyModal .btn-primary:focus {
   background: #fd4460 !important;
   color: #fff !important;
 }
