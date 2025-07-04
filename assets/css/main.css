@@ -4736,6 +4736,20 @@ section,
   color: #fff !important;
   background: transparent !important;
 }
+.footer-sofresh-contact-detail,
+.footer-sofresh-contact-detail span {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+/* ป้องกัน dark mode ของ browser/OS */
+@media (prefers-color-scheme: dark) {
+  .footer-sofresh-contact-detail,
+  .footer-sofresh-contact-detail span {
+    color: #fff !important;
+    background: transparent !important;
+  }
+}
 
 .footer-sofresh-contact-detail i {
   font-size: 26px;
