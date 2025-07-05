@@ -5230,3 +5230,6 @@ section,
   min-height: 80px;
   resize: none;
 }
+#scroll-top {
+  display: none !important;
+}
